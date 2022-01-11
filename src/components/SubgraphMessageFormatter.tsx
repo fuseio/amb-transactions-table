@@ -57,7 +57,7 @@ export const subgraphMessageToTableMessage = (
     : '-'
   let affirmationCompleted = !fromHome
     ? getExplorerTxLinkComponent(
-        bridgeInfo.homeBridgeAddress,
+        bridgeInfo.homeTxTemplate,
         message.affirmationCompleted.txHash,
       )
     : '-'
